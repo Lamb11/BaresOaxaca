@@ -14,6 +14,7 @@
 		D3FAC8721A92E70400C7A964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FAC8711A92E70400C7A964 /* Images.xcassets */; };
 		D3FAC8751A92E70400C7A964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3FAC8731A92E70400C7A964 /* LaunchScreen.xib */; };
 		D3FAC8811A92E70400C7A964 /* BaresOaxacaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FAC8801A92E70400C7A964 /* BaresOaxacaTests.m */; };
+		D3FAC88B1A92F14200C7A964 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FAC88A1A92F14200C7A964 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		D3FAC87A1A92E70400C7A964 /* BaresOaxacaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaresOaxacaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FAC87F1A92E70400C7A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FAC8801A92E70400C7A964 /* BaresOaxacaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaresOaxacaTests.m; sourceTree = "<group>"; };
+		D3FAC88A1A92F14200C7A964 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FAC88B1A92F14200C7A964 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		D3FAC8581A92E70400C7A964 = {
 			isa = PBXGroup;
 			children = (
+				D3FAC88A1A92F14200C7A964 /* iAd.framework */,
 				D3FAC8631A92E70400C7A964 /* BaresOaxaca */,
 				D3FAC87D1A92E70400C7A964 /* BaresOaxacaTests */,
 				D3FAC8621A92E70400C7A964 /* Products */,
