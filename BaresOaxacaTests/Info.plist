@@ -20,5 +20,7 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Pushwoosh_APPID</key>
+	<string>8DB45-AFD5C</string>
 </dict>
 </plist>
