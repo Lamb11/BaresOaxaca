@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Pushwoosh/PushNotificationManager.h>
+#import <GoogleMaps/GoogleMaps.h>
 
 #define LOCATIONS_FILE @"PWLocationTracking"
 #define LOCATIONS_FILE_TYPE @"log"
@@ -23,6 +24,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 80000
     if ([application respondsToSelector:@selector(registerUserNotificationSettings:)])
     {
@@ -50,6 +52,8 @@
     }
     
     [[UIDevice currentDevice] beginGeneratingDeviceOrientationNotifications];
+    
+    [GMSServices provideAPIKey:@"AIzaSyBBF1XZDvEhzcbavaOmaDiqDLBoo704j14"];
     return YES;
     
 
